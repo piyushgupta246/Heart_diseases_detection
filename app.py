@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 app = Flask(__name__)
 
 # Load and preprocess data
-df = pd.read_csv("D:/F L A S K web/Heart_Disease/heart_disease.csv")
+df = pd.read_csv("heart_disease.csv")
 x = df[['age', 'cp', 'thalach']]
 y = df['target']
 
